@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="/src/bibimbap.png">
+</head>
+<body>
+    <h1>Formulario de inscripcion</h1>
+    <form>
+
+        <div>
+            <div>
+                <p>title</p>
+                <input type="radio" name="title" id="mr">
+                <label for="mr">Mr</label>
+
+                     <input type="radio" name="title" id="mrs">
+                <label for="mrs">Mrs</label>
+                     <input type="radio" name="title" id="miss">
+                <label for="miss">Miss</label>
+
+            </div>
+            <label for="FirstName">Firts Name</label>
+            <br>
+            <input type="text"id="FirstName"placeholder="Samuel">
+            
+        </div>
+
+        <div>
+            <label for="LastName">Last Name</label>
+            <br>
+            <input type="text"id="LastName"placeholder="Frias">
+            
+        </div>
+
+        <div>
+            <label for="email">email</label>
+            <br>
+            <input type="email"id="email"placeholder="samuel@gmail.com">
+            
+        </div>
+
+
+        <div>
+            <label for="phone">phone</label>
+            <br>
+            <input type="number"id="phone"placeholder="12345533">
+            
+        </div>
+
+         <div>
+            <label for="password">password</label>
+            <br>
+            <input type="password"id="password"placeholder="your password here....">
+            
+        </div>
+        <div>
+            <label for="country">country</label>
+            <br>
+            <select name="country" id="country">
+            
+                <option value="peru">Perú</option>
+                <option value="mexico">México</option>
+                <option value="canada">Canada</option>
+                <option value="india">India</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="" id="terms">
+            <label for="terms">I gree to the terms and conditions</label>
+        </div>
+        <div>
+            <textarea name="" id="message"cols=30 rows="5"
+            placeholder="write  your message"></textarea>
+        </div>
+        <div>
+            <label for="photo">your photo</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <div>
+            <label for="message">message</label>
+            <br>
+            <button type="submit"> sign up</button>
+            <button>reset form</button>
+        </div>
+    </form>
+    
+</body>
+</html>
